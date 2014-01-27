@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28CDF8E1896F595000EC9D2 /* icon-12.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDF851896F595000EC9D2 /* icon-12.png */; };
+		E28CDF8F1896F595000EC9D2 /* icon-14.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDF861896F595000EC9D2 /* icon-14.png */; };
+		E28CDF901896F595000EC9D2 /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDF871896F595000EC9D2 /* icon-29.png */; };
+		E28CDF911896F595000EC9D2 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDF881896F595000EC9D2 /* icon-57.png */; };
+		E28CDF921896F595000EC9D2 /* icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDF891896F595000EC9D2 /* icon-58.png */; };
+		E28CDF931896F595000EC9D2 /* icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDF8A1896F595000EC9D2 /* icon-80.png */; };
+		E28CDFA31896F686000EC9D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDFA01896F686000EC9D2 /* Default-568h@2x.png */; };
+		E28CDFA41896F686000EC9D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDFA11896F686000EC9D2 /* Default.png */; };
+		E28CDFA51896F686000EC9D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDFA21896F686000EC9D2 /* Default@2x.png */; };
+		E28CDFA91896F6D1000EC9D2 /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDFA61896F6D1000EC9D2 /* background-568h@2x.png */; };
+		E28CDFAA1896F6D1000EC9D2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDFA71896F6D1000EC9D2 /* background.png */; };
+		E28CDFAB1896F6D1000EC9D2 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDFA81896F6D1000EC9D2 /* background@2x.png */; };
+		E28CDFAD1896F739000EC9D2 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = E28CDFAC1896F739000EC9D2 /* block.png */; };
+		E2A54A7015C7565600A27336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A54A6F15C7565600A27336 /* UIKit.framework */; };
+		E2A54A7215C7565600A27336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A54A7115C7565600A27336 /* Foundation.framework */; };
+		E2A54A7415C7565600A27336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A54A7315C7565600A27336 /* CoreGraphics.framework */; };
+		E2A54A7A15C7565600A27336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2A54A7815C7565600A27336 /* InfoPlist.strings */; };
+		E2A54A7C15C7565600A27336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A54A7B15C7565600A27336 /* main.m */; };
+		E2A54A8015C7565600A27336 /* FancyBlocksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A54A7F15C7565600A27336 /* FancyBlocksAppDelegate.m */; };
+		E2A54A8315C7565600A27336 /* FancyBlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A54A8215C7565600A27336 /* FancyBlocksViewController.m */; };
+		E2A54A8615C7565600A27336 /* FancyBlocksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A54A8415C7565600A27336 /* FancyBlocksViewController.xib */; };
+		E2A54A8E15C7567500A27336 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A54A8D15C7567500A27336 /* GameModel.m */; };
+		E2A54A9715C76E1500A27336 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A54A9615C76E1500A27336 /* Block.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E28CDF851896F595000EC9D2 /* icon-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-12.png"; sourceTree = "<group>"; };
+		E28CDF861896F595000EC9D2 /* icon-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-14.png"; sourceTree = "<group>"; };
+		E28CDF871896F595000EC9D2 /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29.png"; sourceTree = "<group>"; };
+		E28CDF881896F595000EC9D2 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		E28CDF891896F595000EC9D2 /* icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-58.png"; sourceTree = "<group>"; };
+		E28CDF8A1896F595000EC9D2 /* icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-80.png"; sourceTree = "<group>"; };
+		E28CDFA01896F686000EC9D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E28CDFA11896F686000EC9D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E28CDFA21896F686000EC9D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E28CDFA61896F6D1000EC9D2 /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
+		E28CDFA71896F6D1000EC9D2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		E28CDFA81896F6D1000EC9D2 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		E28CDFAC1896F739000EC9D2 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		E2A54A6B15C7565600A27336 /* FancyBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A54A6F15C7565600A27336 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2A54A7115C7565600A27336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2A54A7315C7565600A27336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2A54A7715C7565600A27336 /* FancyBlocks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FancyBlocks-Info.plist"; sourceTree = "<group>"; };
+		E2A54A7915C7565600A27336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2A54A7B15C7565600A27336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2A54A7D15C7565600A27336 /* FancyBlocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FancyBlocks-Prefix.pch"; sourceTree = "<group>"; };
+		E2A54A7E15C7565600A27336 /* FancyBlocksAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FancyBlocksAppDelegate.h; sourceTree = "<group>"; };
+		E2A54A7F15C7565600A27336 /* FancyBlocksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyBlocksAppDelegate.m; sourceTree = "<group>"; };
+		E2A54A8115C7565600A27336 /* FancyBlocksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FancyBlocksViewController.h; sourceTree = "<group>"; };
+		E2A54A8215C7565600A27336 /* FancyBlocksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyBlocksViewController.m; sourceTree = "<group>"; };
+		E2A54A8515C7565600A27336 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FancyBlocksViewController.xib; sourceTree = "<group>"; };
+		E2A54A8C15C7567500A27336 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		E2A54A8D15C7567500A27336 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		E2A54A9515C76E1500A27336 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		E2A54A9615C76E1500A27336 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2A54A6815C7565600A27336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A54A7015C7565600A27336 /* UIKit.framework in Frameworks */,
+				E2A54A7215C7565600A27336 /* Foundation.framework in Frameworks */,
+				E2A54A7415C7565600A27336 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E28CDF811896F55C000EC9D2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E28CDFA01896F686000EC9D2 /* Default-568h@2x.png */,
+				E28CDFA11896F686000EC9D2 /* Default.png */,
+				E28CDFA21896F686000EC9D2 /* Default@2x.png */,
+				E28CDF851896F595000EC9D2 /* icon-12.png */,
+				E28CDF861896F595000EC9D2 /* icon-14.png */,
+				E28CDF871896F595000EC9D2 /* icon-29.png */,
+				E28CDF881896F595000EC9D2 /* icon-57.png */,
+				E28CDF891896F595000EC9D2 /* icon-58.png */,
+				E28CDF8A1896F595000EC9D2 /* icon-80.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E2A54A6015C7565600A27336 = {
+			isa = PBXGroup;
+			children = (
+				E28CDF811896F55C000EC9D2 /* Images */,
+				E2A54A7515C7565600A27336 /* FancyBlocks */,
+				E2A54A6E15C7565600A27336 /* Frameworks */,
+				E2A54A6C15C7565600A27336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2A54A6C15C7565600A27336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2A54A6B15C7565600A27336 /* FancyBlocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2A54A6E15C7565600A27336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A54A6F15C7565600A27336 /* UIKit.framework */,
+				E2A54A7115C7565600A27336 /* Foundation.framework */,
+				E2A54A7315C7565600A27336 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A54A7515C7565600A27336 /* FancyBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A54A7E15C7565600A27336 /* FancyBlocksAppDelegate.h */,
+				E2A54A7F15C7565600A27336 /* FancyBlocksAppDelegate.m */,
+				E2A54A8115C7565600A27336 /* FancyBlocksViewController.h */,
+				E2A54A8215C7565600A27336 /* FancyBlocksViewController.m */,
+				E2A54A8415C7565600A27336 /* FancyBlocksViewController.xib */,
+				E2A54A8C15C7567500A27336 /* GameModel.h */,
+				E2A54A8D15C7567500A27336 /* GameModel.m */,
+				E2A54A9515C76E1500A27336 /* Block.h */,
+				E2A54A9615C76E1500A27336 /* Block.m */,
+				E2A54A7615C7565600A27336 /* Supporting Files */,
+			);
+			path = FancyBlocks;
+			sourceTree = "<group>";
+		};
+		E2A54A7615C7565600A27336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28CDFAC1896F739000EC9D2 /* block.png */,
+				E28CDFA61896F6D1000EC9D2 /* background-568h@2x.png */,
+				E28CDFA71896F6D1000EC9D2 /* background.png */,
+				E28CDFA81896F6D1000EC9D2 /* background@2x.png */,
+				E2A54A7715C7565600A27336 /* FancyBlocks-Info.plist */,
+				E2A54A7815C7565600A27336 /* InfoPlist.strings */,
+				E2A54A7B15C7565600A27336 /* main.m */,
+				E2A54A7D15C7565600A27336 /* FancyBlocks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2A54A6A15C7565600A27336 /* FancyBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A54A8915C7565600A27336 /* Build configuration list for PBXNativeTarget "FancyBlocks" */;
+			buildPhases = (
+				E2A54A6715C7565600A27336 /* Sources */,
+				E2A54A6815C7565600A27336 /* Frameworks */,
+				E2A54A6915C7565600A27336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyBlocks;
+			productName = FancyBlocks;
+			productReference = E2A54A6B15C7565600A27336 /* FancyBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2A54A6215C7565600A27336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FancyBlocks;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Hooman Ahmadi";
+				TargetAttributes = {
+					E2A54A6A15C7565600A27336 = {
+						DevelopmentTeam = 4DU6D9G44X;
+					};
+				};
+			};
+			buildConfigurationList = E2A54A6515C7565600A27336 /* Build configuration list for PBXProject "FancyBlocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2A54A6015C7565600A27336;
+			productRefGroup = E2A54A6C15C7565600A27336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2A54A6A15C7565600A27336 /* FancyBlocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2A54A6915C7565600A27336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A54A7A15C7565600A27336 /* InfoPlist.strings in Resources */,
+				E28CDF921896F595000EC9D2 /* icon-58.png in Resources */,
+				E28CDF8F1896F595000EC9D2 /* icon-14.png in Resources */,
+				E28CDF931896F595000EC9D2 /* icon-80.png in Resources */,
+				E2A54A8615C7565600A27336 /* FancyBlocksViewController.xib in Resources */,
+				E28CDF8E1896F595000EC9D2 /* icon-12.png in Resources */,
+				E28CDFA31896F686000EC9D2 /* Default-568h@2x.png in Resources */,
+				E28CDFA41896F686000EC9D2 /* Default.png in Resources */,
+				E28CDFAA1896F6D1000EC9D2 /* background.png in Resources */,
+				E28CDFA91896F6D1000EC9D2 /* background-568h@2x.png in Resources */,
+				E28CDFA51896F686000EC9D2 /* Default@2x.png in Resources */,
+				E28CDF911896F595000EC9D2 /* icon-57.png in Resources */,
+				E28CDFAB1896F6D1000EC9D2 /* background@2x.png in Resources */,
+				E28CDF901896F595000EC9D2 /* icon-29.png in Resources */,
+				E28CDFAD1896F739000EC9D2 /* block.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2A54A6715C7565600A27336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A54A7C15C7565600A27336 /* main.m in Sources */,
+				E2A54A8015C7565600A27336 /* FancyBlocksAppDelegate.m in Sources */,
+				E2A54A8315C7565600A27336 /* FancyBlocksViewController.m in Sources */,
+				E2A54A8E15C7567500A27336 /* GameModel.m in Sources */,
+				E2A54A9715C76E1500A27336 /* Block.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2A54A7815C7565600A27336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A54A7915C7565600A27336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2A54A8415C7565600A27336 /* FancyBlocksViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A54A8515C7565600A27336 /* en */,
+			);
+			name = FancyBlocksViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2A54A8715C7565600A27336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2A54A8815C7565600A27336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2A54A8A15C7565600A27336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancyBlocks/FancyBlocks-Prefix.pch";
+				INFOPLIST_FILE = "FancyBlocks/FancyBlocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2A54A8B15C7565600A27336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancyBlocks/FancyBlocks-Prefix.pch";
+				INFOPLIST_FILE = "FancyBlocks/FancyBlocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2A54A6515C7565600A27336 /* Build configuration list for PBXProject "FancyBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A54A8715C7565600A27336 /* Debug */,
+				E2A54A8815C7565600A27336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A54A8915C7565600A27336 /* Build configuration list for PBXNativeTarget "FancyBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A54A8A15C7565600A27336 /* Debug */,
+				E2A54A8B15C7565600A27336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2A54A6215C7565600A27336 /* Project object */;
+}
