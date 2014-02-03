@@ -17,7 +17,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.jpg" id="8">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" id="8">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
@@ -74,6 +74,6 @@
         </view>
     </objects>
     <resources>
-        <image name="background.jpg" width="960" height="854"/>
+        <image name="background.png" width="320" height="480"/>
     </resources>
 </document>

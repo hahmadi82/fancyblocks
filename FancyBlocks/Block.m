@@ -22,7 +22,7 @@
         
         //Store the block image and initialize the frame with respect to the size passed in and the
         //coordinates within THIS view class.
-        UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"block.jpg"]];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"block.png"]];
         imageView.contentMode = UIViewContentModeScaleAspectFill;
         [imageView setFrame:CGRectMake(0,0,bl,bl)];
         
